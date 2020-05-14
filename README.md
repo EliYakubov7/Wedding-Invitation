@@ -5,7 +5,7 @@ Android Studio App
 
 - This is my second app in Android Studio 
 - The purpose of the application is a wedding invitation 
-- The main goals of the application are Common Intents and SharedPreferences 
+- The app uses : Common Intents and SharedPreferences 
 - The application supports two languages : English and Hebrew
 
 
