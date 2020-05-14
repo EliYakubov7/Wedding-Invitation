@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/alegreya_bold_italic</item>
+        <item>@font/cormorant_garamond_light</item>
+        <item>@font/pacifico</item>
+        <item>@font/rock_salt</item>
+        <item>@font/yeseva_one</item>
+    </array>
+</resources>

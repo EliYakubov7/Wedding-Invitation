@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorBack"
+    tools:context=".FourthActivity">
+
+    <TextView
+        android:id="@+id/txt_save_the_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:focusable="true"
+        android:fontFamily="sans-serif-thin"
+        android:gravity="center"
+        android:text="@string/txt_save_the_date"
+        android:textAllCaps="false"
+        android:textColor="@color/colorBlack"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_save_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="8dp"
+        android:focusable="true"
+        android:fontFamily="sans-serif-thin"
+        android:textAllCaps="false"
+        android:textColor="@color/colorBlack"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@id/textView_Map"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txt_save_the_date" />
+
+    <TextView
+        android:id="@+id/textView_Map"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:fontFamily="sans-serif-thin"
+        android:gravity="center"
+        android:text="@string/txt_map"
+        android:textColor="@color/colorBlack"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txt_save_date" />
+
+    <ImageButton
+        android:id="@+id/image_button_map"
+        android:layout_width="180dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/colorBack"
+        android:contentDescription="@string/image_button_google_map"
+        android:focusable="true"
+        app:layout_constraintBottom_toTopOf="@id/textView_Set_Timer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView_Map"
+        app:srcCompat="@drawable/icon_google_maps" />
+
+    <TextView
+        android:id="@+id/textView_Set_Timer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-thin"
+        android:text="@string/txt_set_timer"
+        android:textColor="@color/colorBlack"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@id/image_button_set_timer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/image_button_map" />
+
+    <ImageButton
+        android:id="@+id/image_button_set_timer"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/colorBack"
+        android:contentDescription="@string/image_button_set_timer"
+        android:focusable="true"
+        app:layout_constraintBottom_toTopOf="@id/textView_Add_Event_To_Calendar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView_Set_Timer"
+        app:srcCompat="@drawable/icon_timer" />
+
+    <TextView
+        android:id="@+id/textView_Add_Event_To_Calendar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-thin"
+        android:text="@string/txt_Add_Event_To_Calendar"
+        android:textColor="@color/colorBlack"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@id/image_button_Add_Event_to_Calendar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/image_button_set_timer" />
+
+    <ImageButton
+        android:id="@+id/image_button_Add_Event_to_Calendar"
+        android:layout_width="180dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/colorBack"
+        android:contentDescription="@string/image_button__Add_Event_To_Calendar"
+        android:focusable="true"
+        app:layout_constraintBottom_toTopOf="@id/textView_Youtube"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView_Add_Event_To_Calendar"
+        app:srcCompat="@drawable/icon_google_calendar" />
+
+    <TextView
+        android:id="@+id/textView_Youtube"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-thin"
+        android:text="@string/txt_Youtube"
+        android:textColor="@color/colorBlack"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="@id/image_button_youtube"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/image_button_Add_Event_to_Calendar" />
+
+    <ImageButton
+        android:id="@+id/image_button_youtube"
+        android:layout_width="180dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/colorBack"
+        android:contentDescription="@string/image_button_Youtube"
+        android:focusable="true"
+        app:layout_constraintBottom_toTopOf="@id/textView_WhatsApp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView_Youtube"
+        app:srcCompat="@drawable/icon_youtube" />
+
+    <TextView
+        android:id="@+id/textView_WhatsApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-thin"
+        android:gravity="center"
+        android:lines="2"
+        android:text="@string/txt_WhatsApp"
+        android:textColor="@color/colorBlack"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@id/image_button_WhatsApp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/image_button_youtube" />
+
+    <ImageButton
+        android:id="@+id/image_button_WhatsApp"
+        android:layout_width="180dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/colorBack"
+        android:contentDescription="@string/image_button_WhatsApp"
+        android:focusable="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView_WhatsApp"
+        app:srcCompat="@drawable/icon_whatsapp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

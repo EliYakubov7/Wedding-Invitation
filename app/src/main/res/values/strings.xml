@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Wedding Invitation</string>
+    <string name="title_wedding">Wedding Invitation</string>
+    <string name="image_wedding">Wedding Image</string>
+    <string name="edit_text">Groom and Bride</string>
+    <string name="next_screen">Next</string>
+    <string name="next_screen2">Next</string>
+    <string name="next_screen3">Next</string>
+    <string name="names_husband_wife">Names of Groom and Bride</string>
+
+
+    <string name="txt_grooms_parents">Name\'s of groom\'s parents</string>
+    <string name="txt_brides_parents">Name\'s of bride\'s parents</string>
+    <string name="txt_name_event_hall">Name of the event Hall</string>
+    <string name="txt_address">Address of place</string>
+    <string name="txt_date">Date of wedding</string>
+    <string name="txt_time">Time of wedding ceremony</string>
+
+
+    <string name="edit_text_grooms_parents">The groom\'s parents</string>
+    <string name="edit_text_brides_parents">The bride\'s parents</string>
+    <string name="edit_text_name_of_hall">Enter Name</string>
+    <string name="edit_text_address">Enter Address, City</string>
+    <string name="edit_text_date">Enter Date</string>
+    <string name="edit_text_time">Enter Time</string>
+
+    <string name="btn_take_photo">Take a photo</string>
+    <string name="btn_take_video">Take a video</string>
+
+    <string name="set_content_camera">none</string>
+    <string name="set_content_video">none</string>
+
+
+    <string name="txt_set_timer">Timer for 24 hours before the wedding</string>
+    <string name="image_button_set_timer">ImageButtonTimer</string>
+
+    <string name="txt_Add_Event_To_Calendar">Add event to calendar</string>
+    <string name="image_button__Add_Event_To_Calendar">ImageButtonAddaCalendarEvent</string>
+
+    <string name="txt_Youtube">Help us find songs for wedding via YouTube</string>
+    <string name="image_button_Youtube">ImageButtonYoutube</string>
+
+    <string name="txt_map">Arrival route to the event hall</string>
+    <string name="image_button_google_map">ImageButtonGoogleMap</string>
+
+    <string name="txt_WhatsApp">You missed the wedding ?\n send message to wish congratulations</string>
+    <string name="image_button_WhatsApp">ImageButtonWhatsApp</string>
+
+    <string name="txt_save_the_date">Save the date</string>
+
+    <string name="btn_play">Play</string>
+
+</resources>

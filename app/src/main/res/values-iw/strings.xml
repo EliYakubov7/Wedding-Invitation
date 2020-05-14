@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="next_screen">הבא</string>
+    <string name="next_screen2">הבא</string>
+    <string name="next_screen3">הבא</string>
+    <string name="set_content_camera">אף אחד</string>
+    <string name="set_content_video">אף אחד</string>
+    <string name="title_wedding">הזמנה לחתונה</string>
+    <string name="txt_WhatsApp">פספסת את החתונה ?\n שלח הודעה ואחל ברכות</string>
+    <string name="txt_Add_Event_To_Calendar">הוסף אירוע ללוח השנה</string>
+    <string name="txt_Youtube">עזור לנו לבחור שירים לחתונה דרך יוטיוב</string>
+    <string name="txt_map">מסלול הגעה לאולם האירועים</string>
+    <string name="txt_address">כתובת של המקום</string>
+    <string name="txt_date">תאריך החתונה</string>
+    <string name="txt_brides_parents">שמות ההורים של הכלה</string>
+    <string name="txt_grooms_parents">שמות ההורים של החתן</string>
+    <string name="txt_name_event_hall">שם אולם האירועים</string>
+    <string name="txt_save_the_date">שמור את התאריך</string>
+    <string name="txt_set_timer">טיימר 24 שעות לפני החתונה</string>
+    <string name="txt_time">שעת הכניסה לחופה</string>
+    <string name="app_name">הזמנה לחתונה</string>
+    <string name="btn_play">נגן</string>
+    <string name="btn_take_photo">צלם תמונה</string>
+    <string name="btn_take_video">צלם וידאו</string>
+    <string name="edit_text_time">הכנס שעה</string>
+    <string name="edit_text_date">הכנס תאריך</string>
+    <string name="edit_text_address">הכנס כתובת, עיר</string>
+    <string name="image_wedding">תמונת חתונה</string>
+    <string name="names_husband_wife">שמות החתן והכלה</string>
+    <string name="edit_text">חתן וכלה</string>
+    <string name="edit_text_brides_parents">הורי הכלה</string>
+    <string name="edit_text_grooms_parents">הורי החתן</string>
+    <string name="edit_text_name_of_hall">הכנס שם</string>
+    <string name="image_button_google_map">תמונת גוגל מפות</string>
+    <string name="image_button_set_timer">תמונת טיימר</string>
+    <string name="image_button_Youtube">תמונת יוטיוב</string>
+    <string name="image_button_WhatsApp">תמונת וואצאפ</string>
+    <string name="image_button__Add_Event_To_Calendar">תמונת הוספת אירוע ללוח שנה</string>
+
+</resources>

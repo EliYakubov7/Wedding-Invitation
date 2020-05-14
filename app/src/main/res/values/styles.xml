@@ -1,0 +1,34 @@
+<resources>
+
+        <!-- Base application theme. -->
+        <style name="AppTheme" parent="Theme.AppCompat.DayNight">
+            <!-- Customize your theme here. -->
+            <item name="colorPrimary">@color/colorPaleRose</item>
+            <item name="colorPrimaryDark">@color/colorPaleRose</item>
+            <item name="colorAccent">@color/colorPaleRose</item>
+        </style>
+
+        <style name="NoActionBar" parent="AppTheme">
+            <item name="windowNoTitle">true</item>
+            <item name="windowActionBar">false</item>
+        </style>
+
+        <style name="FloatingHintStyle" parent="@android:style/TextAppearance">
+            <item name="android:textColor">@color/colorPaleRose</item>
+        </style>
+
+        <style name="WindowAnimationTransition">
+            <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+            <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+        </style>
+
+
+    <style name="TimePickerTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/colorPaleRose</item>
+    </style>
+
+    <style name="DatePickerTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/colorPaleRose</item>
+    </style>
+
+</resources>
