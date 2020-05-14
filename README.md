@@ -1,9 +1,9 @@
-# Hamburger-Order
+# Wedding-Invitation
 Android Studio App
 
 ## About the app:
 
-- This is my first app in Android Studio 
+- This is my second app in Android Studio 
 - The purpose of the application is a wedding invitation 
 - The main goals of the application are Common Intents and SharedPreferences 
 - The application supports two languages : English and Hebrew
