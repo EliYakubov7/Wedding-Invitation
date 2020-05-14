@@ -9,10 +9,10 @@ Android Studio App
 - The application supports two languages : English and Hebrew
 
 
-### ScreenShots
-<img src="https://github.com/EliYakubov7/Wedding-Invitation/blob/master/screenshots/main_activity.jpg" width="250"> , <img src="https://github.com/EliYakubov7/Wedding-Invitation/blob/master/screenshots/details_activity.jpg" width="250">
+### Screenshots
+<img src="https://github.com/EliYakubov7/Wedding-Invitation/blob/master/screenshots/main_activity.jpg" width="250">  <img src="https://github.com/EliYakubov7/Wedding-Invitation/blob/master/screenshots/details_activity.jpg" width="250">
 
-<img src="https://github.com/EliYakubov7/Wedding-Invitation/blob/master/screenshots/picture_and_video_activity.jpg" width="250"> ,<img src="https://github.com/EliYakubov7/Wedding-Invitation/blob/master/screenshots/common_intents_activity.jpg" width="250">
+<img src="https://github.com/EliYakubov7/Wedding-Invitation/blob/master/screenshots/picture_and_video_activity.jpg" width="250"> <img src="https://github.com/EliYakubov7/Wedding-Invitation/blob/master/screenshots/common_intents_activity.jpg" width="250">
 
 ## Author
 
